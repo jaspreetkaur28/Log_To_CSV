@@ -14,6 +14,7 @@ with open('Logs.csv', 'w') as file2:
     writer.writerow(('Log File Name', 'Date', 'Time', 
                              'ProcessID','FileID','MediaFileId'))
     
+
     for line in lines:
       
         a_match = [True for match in a if match in line]
